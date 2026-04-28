@@ -228,6 +228,14 @@ export default function Index() {
           </ul>
         </div>
         <div className="footer-links">
+          <h4>Контакты</h4>
+          <ul>
+            <li>г. Ишимбай</li>
+            <li>ул. Космонавтов 6</li>
+            <li>+7 (915) 997-82-12</li>
+          </ul>
+        </div>
+        <div className="footer-links">
           <h4>Часы работы</h4>
           <ul>
             <li>Вт-Чт: 12:00 - 23:00</li>
