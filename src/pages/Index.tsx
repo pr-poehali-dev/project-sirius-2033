@@ -4,191 +4,318 @@ export default function Index() {
       <div className="grain-overlay" />
 
       <header className="header">
-        <div className="logo">VINYL*DINER</div>
+        <div className="logo">RELAX*CAFÉ</div>
         <nav>
           <a href="#">Меню</a>
           <a href="#">О нас</a>
-          <a href="#">Афиша</a>
-          <a href="#">Адреса</a>
+          <a href="#">Атмосфера</a>
+          <a href="#">Контакты</a>
         </nav>
-        <button className="btn-cta">Забронировать</button>
+        <button className="btn-cta">Найти нас</button>
       </header>
 
       <main>
         <section className="hero">
           <div className="hero-content">
             <h1 className="hero-title">
-              БЕЗ ПОНТОВ,
+              ВЫДОХНИ.
               <br />
-              ТОЛЬКО <span>ВКУС</span>
+              МЫ <span>ЖДЁМ</span>
             </h1>
             <p className="text-base md:text-lg lg:text-xl mb-8 md:mb-10 leading-relaxed text-[#555]">
-              Эстетика 70-х в современной подаче. Локальные продукты, огненные блюда и атмосфера для настоящих ценителей.
+              Семейная кофейня, где время замедляется. Тёплые чашки, тихая музыка и кофе, который не торопит.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-5">
               <button className="btn-cta" style={{ background: "var(--primary)", color: "white" }}>
-                Заказать
+                Смотреть меню
               </button>
               <button className="btn-cta" style={{ background: "white" }}>
-                Смотреть меню
+                Наша история
               </button>
             </div>
           </div>
           <div className="hero-img">
             <div className="sticker">
-              СВЕЖАК
+              ТЕПЛО
               <br />
-              КАЖДЫЙ ДЕНЬ
+              И ТИХО
             </div>
             <div className="floating-tag hidden md:block" style={{ top: "20%", left: "10%" }}>
-              #ЭСТЕТИКА
+              #УЮТНО
             </div>
             <div className="floating-tag hidden md:block" style={{ bottom: "30%", right: "20%" }}>
-              ОГОНЬ
+              RELAX
             </div>
           </div>
         </section>
 
         <div className="marquee">
           <div className="marquee-content">
-            &nbsp; * БУРГЕРЫ КОТОРЫЕ РВУТ * КРАФТОВЫЕ КОКТЕЙЛИ * ТОЛЬКО РЕТРО ВАЙБ * ОТКРЫТЫ ДО 2:00 * ЛУЧШИЕ В ГОРОДЕ *
-            БУРГЕРЫ КОТОРЫЕ РВУТ * КРАФТОВЫЕ КОКТЕЙЛИ * ТОЛЬКО РЕТРО ВАЙБ * ОТКРЫТЫ ДО 2:00 * ЛУЧШИЕ В ГОРОДЕ
+            &nbsp; * ЛАВАНДОВЫЙ РАФ * ТИХИЙ КАПУЧИНО * ОВСЯНЫЙ ДЗЕН * МАТЧА БЕЗ КОФЕИНА * БУЛОЧКА НЕВЕСОМОСТЬ * УСЛЫШЬ
+            СЕБЯ * ЛАВАНДОВЫЙ РАФ * ТИХИЙ КАПУЧИНО * ОВСЯНЫЙ ДЗЕН * МАТЧА БЕЗ КОФЕИНА * БУЛОЧКА НЕВЕСОМОСТЬ * УСЛЫШЬ
+            СЕБЯ
           </div>
         </div>
 
+        {/* ── КОФЕЙНЫЕ НАПИТКИ ── */}
         <section className="section-padding">
           <div className="section-header">
-            <h2 className="section-title">ВЫБОР ШЕФА</h2>
-            <a
-              href="#"
-              className="text-sm md:text-base"
-              style={{ color: "var(--dark)", fontWeight: 800, textTransform: "uppercase" }}
-            >
+            <h2 className="section-title">КОФЕЙНЫЕ НАПИТКИ</h2>
+            <a href="#" className="text-sm md:text-base" style={{ color: "var(--dark)", fontWeight: 800, textTransform: "uppercase" }}>
               Всё меню
             </a>
           </div>
-
           <div className="menu-grid">
-            {/* Item 1 */}
             <div className="menu-card">
-              <span className="menu-tag">Хит продаж</span>
+              <span className="menu-tag">Хит</span>
               <img
-                src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                alt="Классический бургер"
+                src="https://images.unsplash.com/photo-1541167760496-1628856ab772?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Умиротворенный раф"
               />
               <div className="menu-card-body">
-                <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "space-between",
-                    alignItems: "center",
-                    marginBottom: "10px",
-                  }}
-                >
-                  <h3>Классика</h3>
-                  <span className="price">1 400 ₽</span>
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "10px" }}>
+                  <h3>Умиротворенный раф</h3>
+                  <span className="price">390 ₽</span>
                 </div>
                 <p style={{ fontSize: "14px", color: "#666" }}>
-                  Тройной смэш из мраморной говядины, фирменный соус, маринованные огурцы на бриоши.
+                  Раф на кокосовом молоке с мёдом и щепоткой лаванды. Мягкий, обволакивающий вкус.
                 </p>
               </div>
             </div>
 
-            {/* Item 2 */}
             <div className="menu-card">
-              <span className="menu-tag" style={{ background: "var(--secondary)" }}>
-                Острое
-              </span>
+              <span className="menu-tag" style={{ background: "var(--secondary)" }}>Нежный</span>
               <img
-                src="https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                alt="Неоновая пицца"
+                src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Тихий капучино"
               />
               <div className="menu-card-body">
-                <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "space-between",
-                    alignItems: "center",
-                    marginBottom: "10px",
-                  }}
-                >
-                  <h3>Электро Пепперони</h3>
-                  <span className="price">1 800 ₽</span>
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "10px" }}>
+                  <h3>Тихий капучино</h3>
+                  <span className="price">320 ₽</span>
                 </div>
-                <p style={{ fontSize: "14px", color: "#666" }}>Двойная пепперони, острый мёд, тесто на закваске.</p>
+                <p style={{ fontSize: "14px", color: "#666" }}>
+                  Классический капучино с пониженной температурой и бархатистой пеной. Не обжигает.
+                </p>
               </div>
             </div>
 
-            {/* Item 3 */}
             <div className="menu-card">
-              <span className="menu-tag" style={{ background: "var(--accent)", color: "var(--dark)" }}>
-                Популярное
-              </span>
+              <span className="menu-tag" style={{ background: "var(--accent)", color: "var(--dark)" }}>Лёгкий</span>
               <img
-                src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                alt="Диско Сауэр"
+                src="https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Сонный эспрессо"
               />
               <div className="menu-card-body">
-                <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "space-between",
-                    alignItems: "center",
-                    marginBottom: "10px",
-                  }}
-                >
-                  <h3>Диско Сауэр</h3>
-                  <span className="price">1 200 ₽</span>
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "10px" }}>
+                  <h3>Сонный эспрессо</h3>
+                  <span className="price">250 ₽</span>
                 </div>
                 <p style={{ fontSize: "14px", color: "#666" }}>
-                  Джин, цветок бузины, голубой чай и съедобная золотая пыльца.
+                  Однодольный эспрессо лёгкой обжарки с нотами ромашки и белого винограда.
+                </p>
+              </div>
+            </div>
+
+            <div className="menu-card">
+              <span className="menu-tag">Новинка</span>
+              <img
+                src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Лавандовый флэт"
+              />
+              <div className="menu-card-body">
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "10px" }}>
+                  <h3>Лавандовый флэт</h3>
+                  <span className="price">360 ₽</span>
+                </div>
+                <p style={{ fontSize: "14px", color: "#666" }}>
+                  Флэт уайт с лавандовой пылью и микродозой ванили. Без раздражителей.
+                </p>
+              </div>
+            </div>
+
+            <div className="menu-card">
+              <span className="menu-tag" style={{ background: "var(--secondary)" }}>Тепло</span>
+              <img
+                src="https://images.unsplash.com/photo-1607863680198-23d4b2565df0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Овсяный дзен"
+              />
+              <div className="menu-card-body">
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "10px" }}>
+                  <h3>Овсяный дзен</h3>
+                  <span className="price">340 ₽</span>
+                </div>
+                <p style={{ fontSize: "14px", color: "#666" }}>
+                  Горячий овсяный латте на паровом молоке с каплей рисового сиропа. Гладкое тело.
                 </p>
               </div>
             </div>
           </div>
         </section>
 
+        {/* ── БЕСКОФЕИНОВЫЕ ── */}
+        <section className="section-padding" style={{ background: "var(--light)" }}>
+          <div className="section-header">
+            <h2 className="section-title">БЕЗ КОФЕИНА</h2>
+          </div>
+          <div className="menu-grid">
+            <div className="menu-card">
+              <span className="menu-tag">Для души</span>
+              <img
+                src="https://images.unsplash.com/photo-1556679343-c7306c1976bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Пустой латте"
+              />
+              <div className="menu-card-body">
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "10px" }}>
+                  <h3>Пустой латте</h3>
+                  <span className="price">290 ₽</span>
+                </div>
+                <p style={{ fontSize: "14px", color: "#666" }}>
+                  Парное молоко с пылью кедровой смолы и щепоткой мускатного ореха. Только тепло.
+                </p>
+              </div>
+            </div>
+
+            <div className="menu-card">
+              <span className="menu-tag" style={{ background: "var(--accent)", color: "var(--dark)" }}>Матча</span>
+              <img
+                src="https://images.unsplash.com/photo-1515823662972-da6a2e4d3002?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Сонная матча"
+              />
+              <div className="menu-card-body">
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "10px" }}>
+                  <h3>Сонная матча</h3>
+                  <span className="price">370 ₽</span>
+                </div>
+                <p style={{ fontSize: "14px", color: "#666" }}>
+                  Бамбуковая матча на миндальном молоке с цветами апельсина. Без кофеина.
+                </p>
+              </div>
+            </div>
+
+            <div className="menu-card">
+              <span className="menu-tag">Золотое</span>
+              <img
+                src="https://images.unsplash.com/photo-1577968897966-3d4325b36b61?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Эфирный куркума-латте"
+              />
+              <div className="menu-card-body">
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "10px" }}>
+                  <h3>Эфирный куркума-латте</h3>
+                  <span className="price">310 ₽</span>
+                </div>
+                <p style={{ fontSize: "14px", color: "#666" }}>
+                  Золотое молоко с чёрным перцем, кокосовым маслом и каплей миндального экстракта.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* ── ЕДА ── */}
+        <section className="section-padding">
+          <div className="section-header">
+            <h2 className="section-title">МАЛЕНЬКИЕ РИТУАЛЫ</h2>
+            <span style={{ fontSize: "13px", color: "#999", fontStyle: "italic" }}>без хруста и резких запахов</span>
+          </div>
+          <div className="menu-grid">
+            <div className="menu-card">
+              <span className="menu-tag">К кофе</span>
+              <img
+                src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Пустой круассан"
+              />
+              <div className="menu-card-body">
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "10px" }}>
+                  <h3>Пустой круассан</h3>
+                  <span className="price">180 ₽</span>
+                </div>
+                <p style={{ fontSize: "14px", color: "#666" }}>
+                  Простой масляный круассан без начинки, чуть подсушенный — не крошится звонко.
+                </p>
+              </div>
+            </div>
+
+            <div className="menu-card">
+              <span className="menu-tag" style={{ background: "var(--secondary)" }}>Нежное</span>
+              <img
+                src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Печенье полудрёмы"
+              />
+              <div className="menu-card-body">
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "10px" }}>
+                  <h3>Печенье полудрёмы</h3>
+                  <span className="price">150 ₽</span>
+                </div>
+                <p style={{ fontSize: "14px", color: "#666" }}>
+                  Миндальное песочное печенье с рисовой мукой — рассыпается в молоке, не хрустит.
+                </p>
+              </div>
+            </div>
+
+            <div className="menu-card">
+              <span className="menu-tag" style={{ background: "var(--accent)", color: "var(--dark)" }}>Десерт</span>
+              <img
+                src="https://images.unsplash.com/photo-1551024506-0bccd828d307?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Эхо воды"
+              />
+              <div className="menu-card-body">
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "10px" }}>
+                  <h3>Десерт «Эхо воды»</h3>
+                  <span className="price">220 ₽</span>
+                </div>
+                <p style={{ fontSize: "14px", color: "#666" }}>
+                  Прозрачный грушевый кисель с ароматом бергамота и мятными листьями внутри.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* ── СПЕЦИАЛЬНЫЙ ФОРМАТ ── */}
         <section className="retro-vibe">
           <div>
-            <h2 className="vibe-title">ВАЙБ-ЧЕК ПРОЙДЕН.</h2>
+            <h2 className="vibe-title">МЕНЮ ПО НАСТРОЕНИЮ</h2>
             <p className="vibe-text">
-              Мы не просто кормим. Мы создаём моменты. От плейлиста хип-хопа 90-х до диванов в стиле 70-х — каждый уголок
-              продуман для твоего идеального кадра. Бронь не нужна, просто приходи с настроением.
+              «Внутренний звук» — напиток дня, который выбирает бариста. Подаётся с карточкой: «Твоё сегодняшнее
+              состояние: ___». «Тишина на вынос» — любой напиток в непрозрачном термостакане с надписью «Услышь себя».
+              Все заказы через планшет. Молча.
             </p>
             <button className="btn-cta" style={{ background: "var(--dark)", color: "white", borderColor: "white" }}>
-              Наша история
+              Узнать больше
             </button>
           </div>
           <div className="vibe-img"></div>
         </section>
 
+        {/* ── ГАЛЕРЕЯ ── */}
         <section className="section-padding">
           <h2 className="section-title" style={{ marginBottom: "40px", textAlign: "center" }}>
-            @VINYL.DINER
+            @RELAX.CAFE
           </h2>
           <div className="social-grid">
             <div className="social-item">
               <img
-                src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                alt="Инста 1"
+                src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+                alt="Атмосфера 1"
               />
             </div>
             <div className="social-item">
               <img
-                src="https://images.unsplash.com/photo-1534353473418-4cfa6c56fd38?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                alt="Инста 2"
+                src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+                alt="Атмосфера 2"
               />
             </div>
             <div className="social-item">
               <img
-                src="https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                alt="Инста 3"
+                src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+                alt="Атмосфера 3"
               />
             </div>
             <div className="social-item">
               <img
-                src="https://images.unsplash.com/photo-1559339352-11d035aa65de?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                alt="Инста 4"
+                src="https://images.unsplash.com/photo-1453614512568-c4024d13c247?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+                alt="Атмосфера 4"
               />
             </div>
           </div>
@@ -197,33 +324,25 @@ export default function Index() {
 
       <footer>
         <div>
-          <div className="footer-logo">VINYL*DINER</div>
+          <div className="footer-logo">RELAX*CAFÉ</div>
           <p style={{ color: "#666", lineHeight: 1.6 }}>
-            Твоё место для еды высокого качества и лоу-фай атмосферы. С 2024, но ощущается как 1974.
+            Семейная кофейня, где время замедляется. Выдохни — мы ждём.
           </p>
         </div>
         <div className="footer-links">
           <h4>Навигация</h4>
           <ul>
             <li>
-              <a href="#" style={{ color: "inherit", textDecoration: "none" }}>
-                Меню
-              </a>
+              <a href="#" style={{ color: "inherit", textDecoration: "none" }}>Меню</a>
             </li>
             <li>
-              <a href="#" style={{ color: "inherit", textDecoration: "none" }}>
-                О нас
-              </a>
+              <a href="#" style={{ color: "inherit", textDecoration: "none" }}>О нас</a>
             </li>
             <li>
-              <a href="#" style={{ color: "inherit", textDecoration: "none" }}>
-                Политика
-              </a>
+              <a href="#" style={{ color: "inherit", textDecoration: "none" }}>Атмосфера</a>
             </li>
             <li>
-              <a href="#" style={{ color: "inherit", textDecoration: "none" }}>
-                Условия
-              </a>
+              <a href="#" style={{ color: "inherit", textDecoration: "none" }}>Контакты</a>
             </li>
           </ul>
         </div>
@@ -238,16 +357,14 @@ export default function Index() {
         <div className="footer-links">
           <h4>Часы работы</h4>
           <ul>
-            <li>Вт-Чт: 12:00 - 23:00</li>
-            <li>Пт-Сб: 12:00 - 02:00</li>
-            <li>Вс: 11:00 - 21:00</li>
-            <li>Пн: Выходной</li>
+            <li>Пн-Пт: 08:00 - 21:00</li>
+            <li>Сб-Вс: 09:00 - 22:00</li>
           </ul>
         </div>
         <div className="footer-bottom">
-          <span>2025 VINYL DINER</span>
-          <span>ВКУС КЛАССИКИ</span>
-          <span>IG / TW / TK</span>
+          <span>2025 RELAX CAFÉ</span>
+          <span>УСЛЫШЬ СЕБЯ</span>
+          <span>IG / TG</span>
         </div>
       </footer>
     </>
