@@ -1,0 +1,17 @@
+{
+  "tests": [
+    {
+      "name": "GET sales list",
+      "method": "GET",
+      "path": "/",
+      "expectedStatus": 200
+    },
+    {
+      "name": "POST new sale",
+      "method": "POST",
+      "path": "/",
+      "body": { "item_name": "Тестовый раф", "quantity": 2, "amount": 590 },
+      "expectedStatus": 201
+    }
+  ]
+}
