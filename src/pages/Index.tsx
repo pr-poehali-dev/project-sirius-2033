@@ -69,7 +69,7 @@ export default function Index() {
             <div className="menu-card">
               <span className="menu-tag">Хит</span>
               <img
-                src="https://images.unsplash.com/photo-1541167760496-1628856ab772?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                src="https://cdn.poehali.dev/projects/b6aa4b9f-418a-4e46-a8ec-42b722d8a460/files/a8a3eee1-9e4a-4faa-9198-92c2140937ad.jpg"
                 alt="Умиротворенный раф"
               />
               <div className="menu-card-body">
@@ -86,7 +86,7 @@ export default function Index() {
             <div className="menu-card">
               <span className="menu-tag" style={{ background: "var(--secondary)" }}>Нежный</span>
               <img
-                src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                src="https://cdn.poehali.dev/projects/b6aa4b9f-418a-4e46-a8ec-42b722d8a460/files/6c029abc-d7f1-45e8-9aef-3f3903a5a5ce.jpg"
                 alt="Тихий капучино"
               />
               <div className="menu-card-body">
@@ -103,7 +103,7 @@ export default function Index() {
             <div className="menu-card">
               <span className="menu-tag" style={{ background: "var(--accent)", color: "var(--dark)" }}>Лёгкий</span>
               <img
-                src="https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                src="https://cdn.poehali.dev/projects/b6aa4b9f-418a-4e46-a8ec-42b722d8a460/files/6e7a57d6-c9ca-42f7-87f6-e5b73ecc3641.jpg"
                 alt="Сонный эспрессо"
               />
               <div className="menu-card-body">
@@ -120,7 +120,7 @@ export default function Index() {
             <div className="menu-card">
               <span className="menu-tag">Новинка</span>
               <img
-                src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                src="https://cdn.poehali.dev/projects/b6aa4b9f-418a-4e46-a8ec-42b722d8a460/files/c73fcb4b-fc99-4e07-9e2d-c07444f53b8a.jpg"
                 alt="Лавандовый флэт"
               />
               <div className="menu-card-body">
@@ -137,7 +137,7 @@ export default function Index() {
             <div className="menu-card">
               <span className="menu-tag" style={{ background: "var(--secondary)" }}>Тепло</span>
               <img
-                src="https://images.unsplash.com/photo-1607863680198-23d4b2565df0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                src="https://cdn.poehali.dev/projects/b6aa4b9f-418a-4e46-a8ec-42b722d8a460/files/0af60058-a99d-4927-a2f5-91919f56db79.jpg"
                 alt="Овсяный дзен"
               />
               <div className="menu-card-body">
@@ -162,7 +162,7 @@ export default function Index() {
             <div className="menu-card">
               <span className="menu-tag">Для души</span>
               <img
-                src="https://images.unsplash.com/photo-1556679343-c7306c1976bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                src="https://cdn.poehali.dev/projects/b6aa4b9f-418a-4e46-a8ec-42b722d8a460/files/08fc5e10-2dfb-4123-a1f7-4a2e9093a236.jpg"
                 alt="Пустой латте"
               />
               <div className="menu-card-body">
@@ -179,7 +179,7 @@ export default function Index() {
             <div className="menu-card">
               <span className="menu-tag" style={{ background: "var(--accent)", color: "var(--dark)" }}>Матча</span>
               <img
-                src="https://images.unsplash.com/photo-1515823662972-da6a2e4d3002?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                src="https://cdn.poehali.dev/projects/b6aa4b9f-418a-4e46-a8ec-42b722d8a460/files/b771f898-c7a3-4d4b-ba37-05b497be543f.jpg"
                 alt="Сонная матча"
               />
               <div className="menu-card-body">
@@ -196,7 +196,7 @@ export default function Index() {
             <div className="menu-card">
               <span className="menu-tag">Золотое</span>
               <img
-                src="https://images.unsplash.com/photo-1577968897966-3d4325b36b61?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                src="https://cdn.poehali.dev/projects/b6aa4b9f-418a-4e46-a8ec-42b722d8a460/files/2f5f65f1-50fb-467b-bfae-8c7aabe80ce6.jpg"
                 alt="Эфирный куркума-латте"
               />
               <div className="menu-card-body">
@@ -222,7 +222,7 @@ export default function Index() {
             <div className="menu-card">
               <span className="menu-tag">К кофе</span>
               <img
-                src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                src="https://cdn.poehali.dev/projects/b6aa4b9f-418a-4e46-a8ec-42b722d8a460/files/460a70d3-74fd-407a-921c-c1bd08f5366f.jpg"
                 alt="Пустой круассан"
               />
               <div className="menu-card-body">
@@ -239,7 +239,7 @@ export default function Index() {
             <div className="menu-card">
               <span className="menu-tag" style={{ background: "var(--secondary)" }}>Нежное</span>
               <img
-                src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                src="https://cdn.poehali.dev/projects/b6aa4b9f-418a-4e46-a8ec-42b722d8a460/files/5950268d-a122-403f-bebf-bfbd8884572f.jpg"
                 alt="Печенье полудрёмы"
               />
               <div className="menu-card-body">
@@ -256,7 +256,7 @@ export default function Index() {
             <div className="menu-card">
               <span className="menu-tag" style={{ background: "var(--accent)", color: "var(--dark)" }}>Десерт</span>
               <img
-                src="https://images.unsplash.com/photo-1551024506-0bccd828d307?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                src="https://cdn.poehali.dev/projects/b6aa4b9f-418a-4e46-a8ec-42b722d8a460/files/c071129c-a491-4809-beec-b00e13142807.jpg"
                 alt="Эхо воды"
               />
               <div className="menu-card-body">
@@ -296,25 +296,25 @@ export default function Index() {
           <div className="social-grid">
             <div className="social-item">
               <img
-                src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+                src="https://cdn.poehali.dev/projects/b6aa4b9f-418a-4e46-a8ec-42b722d8a460/files/13066720-e545-4b58-8eb2-d2756a85ede8.jpg"
                 alt="Атмосфера 1"
               />
             </div>
             <div className="social-item">
               <img
-                src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+                src="https://cdn.poehali.dev/projects/b6aa4b9f-418a-4e46-a8ec-42b722d8a460/files/8c20d392-7811-431d-b787-be8bef7ffefd.jpg"
                 alt="Атмосфера 2"
               />
             </div>
             <div className="social-item">
               <img
-                src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+                src="https://cdn.poehali.dev/projects/b6aa4b9f-418a-4e46-a8ec-42b722d8a460/files/cbad17d8-4df8-4c46-912b-19610b734bb5.jpg"
                 alt="Атмосфера 3"
               />
             </div>
             <div className="social-item">
               <img
-                src="https://images.unsplash.com/photo-1453614512568-c4024d13c247?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+                src="https://cdn.poehali.dev/projects/b6aa4b9f-418a-4e46-a8ec-42b722d8a460/files/2abd66c1-fc6d-46ca-b274-11327f8db1ae.jpg"
                 alt="Атмосфера 4"
               />
             </div>
